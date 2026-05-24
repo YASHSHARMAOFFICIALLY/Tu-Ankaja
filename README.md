@@ -65,7 +65,7 @@ Built by **Team TU Ankaja** for the IEEE MYOSA Innovation Challenge, organized b
 * **Multi-Sensor Aggregation:** Captures physical parameters like Electronic noise using MOSFET, RGB light, ambient light, temperature, gyroscope data (in x, y, z), air particles, simultaneously.
 * **Custom Chaotic Environment:** Employs a physical mirrored box with rotating LEDs, moving discs, and agitated air particles to create a highly dynamic sensory input.
 * **Digit-Picking Algorithm:** Uses an array-based system to process sensor data into true random numbers.
-* **Validation of the RNG using NIST Suite:** The random numbers generated using the prototype were tested using the NIST Suite, and the system was found to pass __/15 tests, which is considered to be excellent.
+* **Validation of the RNG using NIST Suite:** The random numbers generated using the prototype were tested using the NIST Suite, and the system was found to pass 15/15 tests, which is considered to be excellent.
 
 ---
 
@@ -132,7 +132,7 @@ To gather unpredictable digital data, a 45 cm x 45 cm box with a rough mirrored 
 - **Random Bit Selection:** A software "BitPicker" randomly selects bits from across the sensor arrays.
 - **BCD Clamping:** The 16 random bits are grouped, and a modulo operator (%10) limits the decimal equivalent of the chunks to 9 (preventing hex values up to 15), finalizing the 16-bit random output.
 
-### **4. NIST Complient**
+### **4. NIST Compliant**
 
 - **NIST SP-800 22**
 <p align="center">
@@ -231,8 +231,7 @@ Three pages, each serving a different purpose:
 |---|---|---|
 | MYOSA Motherboard (ESP32) | `WiFi.h`, `PubSubClient.h`, DAC (`dacWrite`), ADC (`analogRead`) | WiFi connectivity, MQTT publishing, MOSFET gate drive, noise sampling |
 | MYOSA Accelerometer/Gyroscope | `Wire.h` (I2C, address `0x68`) | 6-axis motion data (accel x/y/z, gyro x/y/z) for entropy mixing |
-| MYOSA Light/Proximity (APDS9960) | `LightProximityAndGesture.h`
- (I2C) | RGB color values and ambient light intensity |
+| MYOSA Light/Proximity (APDS9960) | `LightProximityAndGesture.h` (I2C) | RGB color values and ambient light intensity |
 | MYOSA OLED Display | `oled.h` (I2C) | On-device status display |
 | PMS5003 Particle Sensor | UART (`Serial2`) | PM1.0, PM2.5, PM10 particle concentration readings |
 
