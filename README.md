@@ -24,12 +24,12 @@ Built by **Team TU Ankaja** for the IEEE MYOSA Innovation Challenge, organized b
 
 **Team Members:**
 
-| Name | Department | Role |
-|------|-----------|------|
-| Yash Sharma | B.Tech 4th Semester, ECE | Lead Developer — Rust backend, MQTT pipeline, frontend dashboard |
-| Nautesh Kanojiya | B.Tech 4th Semester, ECE | Hardware Design — MOSFET noise circuit, chaotic box construction, sensor wiring |
-| Nabajyoti Das | B.Tech 4th Semester, ECE | Firmware — ESP32 MQTT publisher, sensor data collection, BCD clamping logic |
-| Hritima Rabha | B.Tech 4th Semester, ECE | Testing & Documentation — Integration tests, README, demo scripts |
+| Name | Department |
+|------|-----------|
+| Yash Sharma | B.Tech 4th Semester, ECE |
+| Nautesh Kanojiya | B.Tech 4th Semester, ECE |
+| Nabajyoti Das | B.Tech 4th Semester, ECE |
+| Hritima Rabha | B.Tech 4th Semester, ECE |
 
 ---
 
