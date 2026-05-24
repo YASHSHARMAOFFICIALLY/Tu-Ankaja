@@ -2,7 +2,7 @@
 publishDate: 2026-05-14T00:00:00Z
 title: "TU Ankaja: Electronic Noise Powered and MYOSA-integrated Sensor Based Random Number Generator."
 excerpt: "A multi-sensor hardware entropy collector built on an ESP32 based MYOSA Motherboard and MYOSA sensor and an external circuit, feeding a cryptographic engine over MQTT with randomly generated numbers."
-image: /assets/images/Tu-Ankaja/chaotic-box-inside-full.jpg
+image: /assets/images/Tu-Ankaja/cover.jpg.jpeg
 tags:
   - IoT
   - Rust
